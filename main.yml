@@ -1,0 +1,25 @@
+---
+- hosts: test
+  strategy: linear
+  gather_facts: false
+  remote_user: root
+  become: no
+  become_method: sudo
+  become_user: root
+  tasks:
+  - name: Disable swap
+    raw: /usr/sbin/swapoff -a
+  
+  - name: Remove Swap from fstab
+    mount:
+      name: swap
+      fstype: swap
+      state: absent
+      
+  - name: Remove the logical volume.
+    lvol:
+      vg: centos_test-centos7
+      lv: swap
+      state: absent
+      force: yes
+      

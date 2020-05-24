@@ -1,0 +1,347 @@
+2020-05-19 19:34:48,604 p=18639 u=mn.albeschenko |  PLAY [all] *********************************************************************
+2020-05-19 19:34:48,630 p=18639 u=mn.albeschenko |  TASK [yum] *********************************************************************
+2020-05-19 19:34:49,254 p=18639 u=mn.albeschenko |  fatal: [test-albeschenko]: UNREACHABLE! => {"changed": false, "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", "unreachable": true}
+2020-05-19 19:34:49,257 p=18639 u=mn.albeschenko |  	to retry, use: --limit @/home/mn.albeschenko/Documents/ansible/shablon/main.retry
+
+2020-05-19 19:34:49,258 p=18639 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-19 19:34:49,258 p=18639 u=mn.albeschenko |  test-albeschenko           : ok=0    changed=0    unreachable=1    failed=0   
+2020-05-19 19:34:59,959 p=18819 u=mn.albeschenko |  ansible-playbook 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:34:59,959 p=18819 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:35:09,900 p=18819 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:35:10,121 p=18819 u=mn.albeschenko |  PLAYBOOK: main.yml *************************************************************
+2020-05-19 19:35:10,121 p=18819 u=mn.albeschenko |  1 plays in main.yml
+2020-05-19 19:35:10,148 p=18819 u=mn.albeschenko |  PLAY [all] *********************************************************************
+2020-05-19 19:35:10,171 p=18819 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:35:10,175 p=18819 u=mn.albeschenko |  TASK [yum] *********************************************************************
+2020-05-19 19:35:10,175 p=18819 u=mn.albeschenko |  task path: /home/mn.albeschenko/Documents/ansible/shablon/main.yml:5
+2020-05-19 19:35:10,436 p=18819 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/packaging/os/yum.py
+2020-05-19 19:35:10,988 p=18819 u=mn.albeschenko |  fatal: [test-albeschenko]: UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:35:10,989 p=18819 u=mn.albeschenko |  	to retry, use: --limit @/home/mn.albeschenko/Documents/ansible/shablon/main.retry
+
+2020-05-19 19:35:10,989 p=18819 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-19 19:35:10,989 p=18819 u=mn.albeschenko |  test-albeschenko           : ok=0    changed=0    unreachable=1    failed=0   
+2020-05-19 19:36:28,763 p=18846 u=mn.albeschenko |  ansible-playbook 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:36:28,763 p=18846 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:36:33,268 p=18846 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:36:33,474 p=18846 u=mn.albeschenko |  PLAYBOOK: main.yml *************************************************************
+2020-05-19 19:36:33,474 p=18846 u=mn.albeschenko |  1 plays in main.yml
+2020-05-19 19:36:33,503 p=18846 u=mn.albeschenko |  PLAY [all] *********************************************************************
+2020-05-19 19:36:33,524 p=18846 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:36:33,528 p=18846 u=mn.albeschenko |  TASK [yum] *********************************************************************
+2020-05-19 19:36:33,528 p=18846 u=mn.albeschenko |  task path: /home/mn.albeschenko/Documents/ansible/shablon/main.yml:5
+2020-05-19 19:36:33,786 p=18846 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/packaging/os/yum.py
+2020-05-19 19:36:34,874 p=18846 u=mn.albeschenko |  fatal: [test-albeschenko]: UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:36:34,878 p=18846 u=mn.albeschenko |  	to retry, use: --limit @/home/mn.albeschenko/Documents/ansible/shablon/main.retry
+
+2020-05-19 19:36:34,879 p=18846 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-19 19:36:34,879 p=18846 u=mn.albeschenko |  test-albeschenko           : ok=0    changed=0    unreachable=1    failed=0   
+2020-05-19 19:36:52,388 p=18860 u=mn.albeschenko |  ansible-playbook 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:36:52,388 p=18860 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:36:56,984 p=18860 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:36:57,190 p=18860 u=mn.albeschenko |  PLAYBOOK: main.yml *************************************************************
+2020-05-19 19:36:57,191 p=18860 u=mn.albeschenko |  1 plays in main.yml
+2020-05-19 19:36:57,217 p=18860 u=mn.albeschenko |  PLAY [all] *********************************************************************
+2020-05-19 19:36:57,239 p=18860 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:36:57,242 p=18860 u=mn.albeschenko |  TASK [yum] *********************************************************************
+2020-05-19 19:36:57,242 p=18860 u=mn.albeschenko |  task path: /home/mn.albeschenko/Documents/ansible/shablon/main.yml:5
+2020-05-19 19:36:57,509 p=18860 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/packaging/os/yum.py
+2020-05-19 19:36:57,837 p=18860 u=mn.albeschenko |  fatal: [test-albeschenko]: UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:36:57,841 p=18860 u=mn.albeschenko |  	to retry, use: --limit @/home/mn.albeschenko/Documents/ansible/shablon/main.retry
+
+2020-05-19 19:36:57,841 p=18860 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-19 19:36:57,842 p=18860 u=mn.albeschenko |  test-albeschenko           : ok=0    changed=0    unreachable=1    failed=0   
+2020-05-19 19:37:15,744 p=18874 u=mn.albeschenko |  ansible-playbook 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:37:15,744 p=18874 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:37:20,099 p=18874 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:37:20,314 p=18874 u=mn.albeschenko |  PLAYBOOK: main.yml *************************************************************
+2020-05-19 19:37:20,315 p=18874 u=mn.albeschenko |  1 plays in main.yml
+2020-05-19 19:37:20,348 p=18874 u=mn.albeschenko |  PLAY [all] *********************************************************************
+2020-05-19 19:37:20,370 p=18874 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:37:20,374 p=18874 u=mn.albeschenko |  TASK [yum] *********************************************************************
+2020-05-19 19:37:20,374 p=18874 u=mn.albeschenko |  task path: /home/mn.albeschenko/Documents/ansible/shablon/main.yml:5
+2020-05-19 19:37:20,638 p=18874 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/packaging/os/yum.py
+2020-05-19 19:37:21,781 p=18874 u=mn.albeschenko |  fatal: [test-albeschenko]: UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:37:21,786 p=18874 u=mn.albeschenko |  	to retry, use: --limit @/home/mn.albeschenko/Documents/ansible/shablon/main.retry
+
+2020-05-19 19:37:21,786 p=18874 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-19 19:37:21,787 p=18874 u=mn.albeschenko |  test-albeschenko           : ok=0    changed=0    unreachable=1    failed=0   
+2020-05-19 19:37:43,755 p=18891 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:37:46,884 p=18906 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:37:46,884 p=18906 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:37:51,247 p=18906 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:37:51,902 p=18906 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:38:19,339 p=18926 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:38:19,339 p=18926 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:38:25,296 p=18926 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:38:25,315 p=18926 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:38:25,430 p=18926 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:38:25,570 p=18926 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:38:25,809 p=18926 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:38:27,075 p=18926 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:38:59,886 p=18941 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:38:59,887 p=18941 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:39:03,454 p=18941 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:39:03,474 p=18941 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:39:03,590 p=18941 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:39:03,734 p=18941 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:39:03,793 p=18941 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/basic.py
+2020-05-19 19:39:03,875 p=18941 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/_text.py
+2020-05-19 19:39:03,876 p=18941 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/parsing/convert_bool.py
+2020-05-19 19:39:03,876 p=18941 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/parsing/__init__.py
+2020-05-19 19:39:03,876 p=18941 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/pycompat24.py
+2020-05-19 19:39:03,877 p=18941 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/six/__init__.py
+2020-05-19 19:39:03,947 p=18941 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:39:04,443 p=18941 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:39:31,040 p=18960 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:39:31,040 p=18960 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:39:37,511 p=18960 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:39:37,531 p=18960 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:39:37,646 p=18960 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:39:37,783 p=18960 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:39:37,841 p=18960 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/basic.py
+2020-05-19 19:39:37,926 p=18960 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/_text.py
+2020-05-19 19:39:37,926 p=18960 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/parsing/convert_bool.py
+2020-05-19 19:39:37,926 p=18960 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/parsing/__init__.py
+2020-05-19 19:39:37,927 p=18960 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/pycompat24.py
+2020-05-19 19:39:37,928 p=18960 u=mn.albeschenko |  Using module_utils file /usr/lib/python2.7/dist-packages/ansible/module_utils/six/__init__.py
+2020-05-19 19:39:38,005 p=18960 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:39:40,443 p=18960 u=mn.albeschenko |  test-albeschenko | FAILED! => {
+    "changed": false, 
+    "module_stderr": "OpenSSH_7.6p1 Ubuntu-4ubuntu0.3, OpenSSL 1.0.2n  7 Dec 2017\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug1: Control socket \"/tmp/.ansible/.cp/ansible-ssh-test-albeschenko-22-mn.albeschenko\" does not exist\r\ndebug2: resolving \"test-albeschenko\" port 22\r\ndebug2: ssh_connect_direct: needpriv 0\r\ndebug1: Connecting to test-albeschenko [10.76.163.214] port 22.\r\ndebug2: fd 3 setting O_NONBLOCK\r\ndebug1: fd 3 clearing O_NONBLOCK\r\ndebug1: Connection established.\r\ndebug3: timeout: 9983 ms remain after connect\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_rsa type 0\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_rsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_dsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_dsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ecdsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ecdsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ed25519 type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ed25519-cert type -1\r\ndebug1: Local version string SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3\r\ndebug1: Remote protocol version 2.0, remote software version OpenSSH_7.4\r\ndebug1: match: OpenSSH_7.4 pat OpenSSH* compat 0x04000000\r\ndebug2: fd 3 setting O_NONBLOCK\r\ndebug1: Authenticating to test-albeschenko:22 as 'mn.albeschenko'\r\ndebug3: hostkeys_foreach: reading file \"/home/mn.albeschenko/.ssh/known_hosts\"\r\ndebug3: record_hostkey: found key type ECDSA in file /home/mn.albeschenko/.ssh/known_hosts:4926\r\ndebug3: load_hostkeys: loaded 1 keys from test-albeschenko\r\ndebug3: order_hostkeyalgs: prefer hostkeyalgs: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521\r\ndebug3: send packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT sent\r\ndebug3: receive packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT received\r\ndebug2: local client KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c\r\ndebug2: host key algorithms: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ssh-ed25519,rsa-sha2-512,rsa-sha2-256,ssh-rsa\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com\r\ndebug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com\r\ndebug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: compression ctos: zlib@openssh.com,zlib,none\r\ndebug2: compression stoc: zlib@openssh.com,zlib,none\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug2: peer server KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\r\ndebug2: host key algorithms: ssh-rsa,rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp256\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,cast128-cbc,3des-cbc\r\ndebug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,cast128-cbc,3des-cbc\r\ndebug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: compression ctos: none,zlib@openssh.com\r\ndebug2: compression stoc: none,zlib@openssh.com\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug1: kex: algorithm: curve25519-sha256\r\ndebug1: kex: host key algorithm: ecdsa-sha2-nistp256\r\ndebug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: zlib@openssh.com\r\ndebug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: zlib@openssh.com\r\ndebug3: send packet: type 30\r\ndebug1: expecting SSH2_MSG_KEX_ECDH_REPLY\r\ndebug3: receive packet: type 31\r\ndebug1: Server host key: ecdsa-sha2-nistp256 SHA256:d6ZoRlbcEMN609fzBwTRFW5W/ma7tlRaXC9Tol1J49Q\r\ndebug3: hostkeys_foreach: reading file \"/home/mn.albeschenko/.ssh/known_hosts\"\r\ndebug3: record_hostkey: found key type ECDSA in file /home/mn.albeschenko/.ssh/known_hosts:4926\r\ndebug3: load_hostkeys: loaded 1 keys from test-albeschenko\r\ndebug3: hostkeys_foreach: reading file \"/home/mn.albeschenko/.ssh/known_hosts\"\r\ndebug3: record_hostkey: found key type ECDSA in file /home/mn.albeschenko/.ssh/known_hosts:4927\r\ndebug3: load_hostkeys: loaded 1 keys from 10.76.163.214\r\ndebug1: Host 'test-albeschenko' is known and matches the ECDSA host key.\r\ndebug1: Found key in /home/mn.albeschenko/.ssh/known_hosts:4926\r\ndebug3: send packet: type 21\r\ndebug2: set_newkeys: mode 1\r\ndebug1: rekey after 134217728 blocks\r\ndebug1: SSH2_MSG_NEWKEYS sent\r\ndebug1: expecting SSH2_MSG_NEWKEYS\r\ndebug3: receive packet: type 21\r\ndebug1: SSH2_MSG_NEWKEYS received\r\ndebug2: set_newkeys: mode 0\r\ndebug1: rekey after 134217728 blocks\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_rsa (0x5555dc82b850), agent\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_dsa ((nil))\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_ecdsa ((nil))\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_ed25519 ((nil))\r\ndebug3: send packet: type 5\r\ndebug3: receive packet: type 7\r\ndebug1: SSH2_MSG_EXT_INFO received\r\ndebug1: kex_input_ext_info: server-sig-algs=<rsa-sha2-256,rsa-sha2-512>\r\ndebug3: receive packet: type 6\r\ndebug2: service_accept: ssh-userauth\r\ndebug1: SSH2_MSG_SERVICE_ACCEPT received\r\ndebug3: send packet: type 50\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: start over, passed a different list publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: preferred gssapi-keyex,gssapi-with-mic,publickey,keyboard-interactive,password\r\ndebug3: authmethod_lookup gssapi-keyex\r\ndebug3: remaining preferred: gssapi-with-mic,publickey,keyboard-interactive,password\r\ndebug3: authmethod_is_enabled gssapi-keyex\r\ndebug1: Next authentication method: gssapi-keyex\r\ndebug1: No valid Key exchange context\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup gssapi-with-mic\r\ndebug3: remaining preferred: publickey,keyboard-interactive,password\r\ndebug3: authmethod_is_enabled gssapi-with-mic\r\ndebug1: Next authentication method: gssapi-with-mic\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\nNo Kerberos credentials available (default cache: FILE:/tmp/krb5cc_1001)\n\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\nNo Kerberos credentials available (default cache: FILE:/tmp/krb5cc_1001)\n\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup publickey\r\ndebug3: remaining preferred: keyboard-interactive,password\r\ndebug3: authmethod_is_enabled publickey\r\ndebug1: Next authentication method: publickey\r\ndebug1: Offering public key: RSA SHA256:kVYCDdjqNJz0F+S3zWdZyV0iD9cUM+1MwTZ7H7HPY00 /home/mn.albeschenko/.ssh/id_rsa\r\ndebug3: send_pubkey_test\r\ndebug3: send packet: type 50\r\ndebug2: we sent a publickey packet, wait for reply\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug1: Trying private key: /home/mn.albeschenko/.ssh/id_dsa\r\ndebug3: no such identity: /home/mn.albeschenko/.ssh/id_dsa: No such file or directory\r\ndebug1: Trying private key: /home/mn.albeschenko/.ssh/id_ecdsa\r\ndebug3: no such identity: /home/mn.albeschenko/.ssh/id_ecdsa: No such file or directory\r\ndebug1: Trying private key: /home/mn.albeschenko/.ssh/id_ed25519\r\ndebug3: no such identity: /home/mn.albeschenko/.ssh/id_ed25519: No such file or directory\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup password\r\ndebug3: remaining preferred: ,password\r\ndebug3: authmethod_is_enabled password\r\ndebug1: Next authentication method: password\r\ndebug3: send packet: type 50\r\ndebug2: we sent a password packet, wait for reply\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\nPermission denied, please try again.\r\n", 
+    "module_stdout": "", 
+    "msg": "MODULE FAILURE", 
+    "rc": 5
+}
+2020-05-19 19:40:00,009 p=18974 u=mn.albeschenko |  test-albeschenko | FAILED! => {
+    "changed": false, 
+    "module_stderr": "Permission denied, please try again.\r\n", 
+    "module_stdout": "", 
+    "msg": "MODULE FAILURE", 
+    "rc": 5
+}
+2020-05-19 19:40:34,386 p=18990 u=mn.albeschenko |  test-albeschenko | FAILED! => {
+    "changed": false, 
+    "module_stderr": "Permission denied, please try again.\r\n", 
+    "module_stdout": "", 
+    "msg": "MODULE FAILURE", 
+    "rc": 5
+}
+2020-05-19 19:40:58,791 p=19006 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:41:07,545 p=19021 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:44:03,459 p=19045 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:44:19,637 p=19059 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:45:52,819 p=19081 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:45:56,476 p=19096 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:45:56,476 p=19096 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:46:03,805 p=19096 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:46:03,820 p=19096 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:46:03,955 p=19096 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:46:04,104 p=19096 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:46:04,318 p=19096 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:46:04,483 p=19096 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:47:56,753 p=19123 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:47:56,753 p=19123 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:48:00,718 p=19123 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:48:00,737 p=19123 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:48:00,847 p=19123 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:48:00,987 p=19123 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:48:01,194 p=19123 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:48:01,377 p=19123 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "SSH Error: data could not be sent to remote host \"test-albeschenko\". Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+2020-05-19 19:49:04,762 p=19140 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:49:04,762 p=19140 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:49:09,614 p=19140 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:49:09,632 p=19140 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:49:09,748 p=19140 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:49:09,892 p=19140 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:49:10,138 p=19140 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:49:10,292 p=19140 u=mn.albeschenko |  test-albeschenko | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: OpenSSH_7.6p1 Ubuntu-4ubuntu0.3, OpenSSL 1.0.2n  7 Dec 2017\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug1: Control socket \"/tmp/.ansible/.cp/ansible-ssh-test-albeschenko-22-root\" does not exist\r\ndebug2: resolving \"test-albeschenko\" port 22\r\ndebug2: ssh_connect_direct: needpriv 0\r\ndebug1: Connecting to test-albeschenko [10.76.163.214] port 22.\r\ndebug2: fd 3 setting O_NONBLOCK\r\ndebug1: fd 3 clearing O_NONBLOCK\r\ndebug1: Connection established.\r\ndebug3: timeout: 9988 ms remain after connect\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_rsa type 0\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_rsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_dsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_dsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ecdsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ecdsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ed25519 type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/mn.albeschenko/.ssh/id_ed25519-cert type -1\r\ndebug1: Local version string SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3\r\ndebug1: Remote protocol version 2.0, remote software version OpenSSH_7.4\r\ndebug1: match: OpenSSH_7.4 pat OpenSSH* compat 0x04000000\r\ndebug2: fd 3 setting O_NONBLOCK\r\ndebug1: Authenticating to test-albeschenko:22 as 'root'\r\ndebug3: hostkeys_foreach: reading file \"/dev/null\"\r\ndebug3: send packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT sent\r\ndebug3: receive packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT received\r\ndebug2: local client KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,ext-info-c\r\ndebug2: host key algorithms: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519,rsa-sha2-512,rsa-sha2-256,ssh-rsa\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com\r\ndebug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com\r\ndebug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: compression ctos: none,zlib@openssh.com,zlib\r\ndebug2: compression stoc: none,zlib@openssh.com,zlib\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug2: peer server KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\r\ndebug2: host key algorithms: ssh-rsa,rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp256\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,cast128-cbc,3des-cbc\r\ndebug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,cast128-cbc,3des-cbc\r\ndebug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: compression ctos: none,zlib@openssh.com\r\ndebug2: compression stoc: none,zlib@openssh.com\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug1: kex: algorithm: curve25519-sha256\r\ndebug1: kex: host key algorithm: ecdsa-sha2-nistp256\r\ndebug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none\r\ndebug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none\r\ndebug3: send packet: type 30\r\ndebug1: expecting SSH2_MSG_KEX_ECDH_REPLY\r\ndebug3: receive packet: type 31\r\ndebug1: Server host key: ecdsa-sha2-nistp256 SHA256:d6ZoRlbcEMN609fzBwTRFW5W/ma7tlRaXC9Tol1J49Q\r\ndebug3: hostkeys_foreach: reading file \"/dev/null\"\r\ndebug3: hostkeys_foreach: reading file \"/dev/null\"\r\nWarning: Permanently added 'test-albeschenko,10.76.163.214' (ECDSA) to the list of known hosts.\r\ndebug3: send packet: type 21\r\ndebug2: set_newkeys: mode 1\r\ndebug1: rekey after 134217728 blocks\r\ndebug1: SSH2_MSG_NEWKEYS sent\r\ndebug1: expecting SSH2_MSG_NEWKEYS\r\ndebug3: receive packet: type 21\r\ndebug1: SSH2_MSG_NEWKEYS received\r\ndebug2: set_newkeys: mode 0\r\ndebug1: rekey after 134217728 blocks\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_rsa (0x556978e368f0), agent\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_dsa ((nil))\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_ecdsa ((nil))\r\ndebug2: key: /home/mn.albeschenko/.ssh/id_ed25519 ((nil))\r\ndebug3: send packet: type 5\r\ndebug3: receive packet: type 7\r\ndebug1: SSH2_MSG_EXT_INFO received\r\ndebug1: kex_input_ext_info: server-sig-algs=<rsa-sha2-256,rsa-sha2-512>\r\ndebug3: receive packet: type 6\r\ndebug2: service_accept: ssh-userauth\r\ndebug1: SSH2_MSG_SERVICE_ACCEPT received\r\ndebug3: send packet: type 50\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: start over, passed a different list publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: preferred gssapi-keyex,gssapi-with-mic,publickey,keyboard-interactive,password\r\ndebug3: authmethod_lookup gssapi-keyex\r\ndebug3: remaining preferred: gssapi-with-mic,publickey,keyboard-interactive,password\r\ndebug3: authmethod_is_enabled gssapi-keyex\r\ndebug1: Next authentication method: gssapi-keyex\r\ndebug1: No valid Key exchange context\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup gssapi-with-mic\r\ndebug3: remaining preferred: publickey,keyboard-interactive,password\r\ndebug3: authmethod_is_enabled gssapi-with-mic\r\ndebug1: Next authentication method: gssapi-with-mic\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\nNo Kerberos credentials available (default cache: FILE:/tmp/krb5cc_1001)\n\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\nNo Kerberos credentials available (default cache: FILE:/tmp/krb5cc_1001)\n\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup publickey\r\ndebug3: remaining preferred: keyboard-interactive,password\r\ndebug3: authmethod_is_enabled publickey\r\ndebug1: Next authentication method: publickey\r\ndebug1: Offering public key: RSA SHA256:kVYCDdjqNJz0F+S3zWdZyV0iD9cUM+1MwTZ7H7HPY00 /home/mn.albeschenko/.ssh/id_rsa\r\ndebug3: send_pubkey_test\r\ndebug3: send packet: type 50\r\ndebug2: we sent a publickey packet, wait for reply\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug1: Trying private key: /home/mn.albeschenko/.ssh/id_dsa\r\ndebug3: no such identity: /home/mn.albeschenko/.ssh/id_dsa: No such file or directory\r\ndebug1: Trying private key: /home/mn.albeschenko/.ssh/id_ecdsa\r\ndebug3: no such identity: /home/mn.albeschenko/.ssh/id_ecdsa: No such file or directory\r\ndebug1: Trying private key: /home/mn.albeschenko/.ssh/id_ed25519\r\ndebug3: no such identity: /home/mn.albeschenko/.ssh/id_ed25519: No such file or directory\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup password\r\ndebug3: remaining preferred: ,password\r\ndebug3: authmethod_is_enabled password\r\ndebug1: Next authentication method: password\r\ndebug3: send packet: type 50\r\ndebug2: we sent a password packet, wait for reply\r\ndebug3: receive packet: type 52\r\ndebug1: Authentication succeeded (password).\r\nAuthenticated to test-albeschenko ([10.76.163.214]:22).\r\ndebug1: setting up multiplex master socket\r\ndebug3: muxserver_listen: temporary control path /tmp/.ansible/.cp/ansible-ssh-test-albeschenko-22-root.4Y1ALNGUni3y3mFh\r\nbind: No such file or directory\r\nunix_listener: cannot bind to path: /tmp/.ansible/.cp/ansible-ssh-test-albeschenko-22-root.4Y1ALNGUni3y3mFh\r\n", 
+    "unreachable": true
+}
+2020-05-19 19:49:46,641 p=19157 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:49:46,642 p=19157 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:49:50,060 p=19157 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:49:50,077 p=19157 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:49:50,195 p=19157 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:49:50,342 p=19157 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:49:50,564 p=19157 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:49:52,948 p=19157 u=mn.albeschenko |  test-albeschenko | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": "pong"
+        }
+    }, 
+    "ping": "pong"
+}
+2020-05-19 19:49:52,949 p=19157 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:49:52,949 p=19157 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:50:02,271 p=19185 u=mn.albeschenko |  ansible 2.5.1
+  config file = /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg
+  configured module search path = [u'/home/mn.albeschenko/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+2020-05-19 19:50:02,271 p=19185 u=mn.albeschenko |  Using /home/mn.albeschenko/Documents/ansible/shablon/ansible.cfg as config file
+2020-05-19 19:50:05,548 p=19185 u=mn.albeschenko |  setting up inventory plugins
+2020-05-19 19:50:05,566 p=19185 u=mn.albeschenko |  Parsed /home/mn.albeschenko/Documents/ansible/shablon/inventory inventory source with ini plugin
+2020-05-19 19:50:05,691 p=19185 u=mn.albeschenko |  Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python2.7/dist-packages/ansible/plugins/callback/minimal.pyc
+2020-05-19 19:50:05,838 p=19185 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:50:06,062 p=19185 u=mn.albeschenko |  Using module file /usr/lib/python2.7/dist-packages/ansible/modules/system/ping.py
+2020-05-19 19:50:06,316 p=19185 u=mn.albeschenko |  test-albeschenko | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": "pong"
+        }
+    }, 
+    "ping": "pong"
+}
+2020-05-19 19:50:06,317 p=19185 u=mn.albeschenko |  META: ran handlers
+2020-05-19 19:50:06,317 p=19185 u=mn.albeschenko |  META: ran handlers
+2020-05-24 22:29:18,105 p=10720 u=mn.albeschenko |   [ERROR]: User interrupted execution
+
+2020-05-24 22:30:09,359 p=11057 u=mn.albeschenko |  PLAY [test] ********************************************************************
+2020-05-24 22:30:09,379 p=11057 u=mn.albeschenko |  TASK [Phase1 - swapoff] ********************************************************
+2020-05-24 22:30:09,809 p=11057 u=mn.albeschenko |  changed: [test-albeschenko]
+2020-05-24 22:30:09,810 p=11057 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-24 22:30:09,810 p=11057 u=mn.albeschenko |  test-albeschenko           : ok=1    changed=1    unreachable=0    failed=0   
+2020-05-25 01:09:04,363 p=14429 u=mn.albeschenko |   [ERROR]: User interrupted execution
+
+2020-05-25 01:09:17,727 p=14433 u=mn.albeschenko |  PLAY [test] ********************************************************************
+2020-05-25 01:09:17,737 p=14433 u=mn.albeschenko |  TASK [Phase1 - swapoff] ********************************************************
+2020-05-25 01:09:17,888 p=14433 u=mn.albeschenko |  changed: [test-albeschenko]
+2020-05-25 01:09:17,905 p=14433 u=mn.albeschenko |  TASK [Remove Swap from fstab] **************************************************
+2020-05-25 01:09:18,428 p=14433 u=mn.albeschenko |  changed: [test-albeschenko]
+2020-05-25 01:09:18,429 p=14433 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-25 01:09:18,429 p=14433 u=mn.albeschenko |  test-albeschenko           : ok=2    changed=2    unreachable=0    failed=0   
+2020-05-25 01:20:38,584 p=14474 u=mn.albeschenko |  PLAY [test] ********************************************************************
+2020-05-25 01:20:38,594 p=14474 u=mn.albeschenko |  TASK [Disable swap] ************************************************************
+2020-05-25 01:20:38,750 p=14474 u=mn.albeschenko |  changed: [test-albeschenko]
+2020-05-25 01:20:38,764 p=14474 u=mn.albeschenko |  TASK [Remove Swap from fstab] **************************************************
+2020-05-25 01:20:39,567 p=14474 u=mn.albeschenko |  changed: [test-albeschenko]
+2020-05-25 01:20:39,571 p=14474 u=mn.albeschenko |  TASK [Remove the logical volume.] **********************************************
+2020-05-25 01:20:40,188 p=14474 u=mn.albeschenko |  changed: [test-albeschenko]
+2020-05-25 01:20:40,194 p=14474 u=mn.albeschenko |  PLAY RECAP *********************************************************************
+2020-05-25 01:20:40,194 p=14474 u=mn.albeschenko |  test-albeschenko           : ok=3    changed=3    unreachable=0    failed=0   
