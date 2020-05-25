@@ -22,4 +22,12 @@
       lv: swap
       state: absent
       force: yes
+
+  - name: extend root partition by free space
+    lvol:
+      vg: centos_test-centos7
+      lv: root
+      size: +100%FREE
+      resizefs: true
+      
       
