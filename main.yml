@@ -2,10 +2,7 @@
 - hosts: test
   strategy: linear
   gather_facts: false
-  remote_user: root
-  become: no
-  become_method: sudo
-  become_user: root
+
   tasks:
   - name: Disable swap
     raw: /usr/sbin/swapoff -a
