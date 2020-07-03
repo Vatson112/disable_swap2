@@ -1,30 +1,54 @@
+
 ---
 - hosts: test
   strategy: linear
   gather_facts: false
 
   tasks:
-  - name: Disable swap
+  - name: "Disable swap"
     raw: /usr/sbin/swapoff -a
   
-  - name: Remove Swap from fstab
+  - name: "Remove Swap from fstab"
     mount:
       name: swap
       fstype: swap
       state: absent
       
-  - name: Remove the logical volume.
+  - name: "Remove the logical volume."
     lvol:
       vg: centos_test-centos7
       lv: swap
       state: absent
       force: yes
 
-  - name: extend root partition by free space
+  - name: "extend root partition by free space"
     lvol:
       vg: centos_test-centos7
       lv: root
       size: +100%FREE
       resizefs: true
-      
+  
+  - name: "Checking GRUB cmdline"
+    shell: "grep -E '(^GRUB_CMDLINE_LINUX=.*)rd.lvm.lv=.*swap (.*)' /etc/default/grub"
+    register: grub_cfg_grep
+    # changed_when: false
+    # failed_when: false
+
+  - name: "Configuring GRUB cmdline"
+    # debug:
+    #   var: grub_cfg_grep.rc
+    replace:
+      path: '/etc/default/grub'
+      regexp: '(^GRUB_CMDLINE_LINUX=".*)rd.lvm.lv=.*swap (.*)'
+      replace: '\1 \2'
+    when: grub_cfg_grep.rc == 0
+
+
+  - name: "Mkconfig grub2"
+    raw: grub2-mkconfig -o /boot/grub2/grub.cfg
+  # - name: edit boot parametr
+  #   shell:
+  #     executable: /bin/bash
+  #     cmd: sed -i 's!rd.lvm.lv=/.*swap!!' /etc/default/grub  && grub2-mkconfig -o /boot/grub2/grub.cfg
+
       
